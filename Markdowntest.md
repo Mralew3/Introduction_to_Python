@@ -2,7 +2,7 @@
 
 ### Test Problem #2
 
-```{python}
+```python
 ## Sort a list of N numbers from lowest to highest. ##
 
 7 4 42 55 13
@@ -12,11 +12,11 @@ Sort a list of N numbers from lowest to highest.
 # Preconditions:
 a list of numbers
 
-Postconditions:
+# Postconditions:
 A list of the same numbers now sorted from lowest to highest
 
-Algorithm:
-1. create a new empty list
+# Algorithm:
+1. create a new empty 'list'
 2. start at the first number and call it the smallest so far
 3. iterate through the rest of the list and look at each number
 	a. is it smaller than the current smallest so far
@@ -28,7 +28,7 @@ Algorithm:
 
 ### Test Problem #1 (answer)
 
-```{python}
+```python
 # App Store
 # Problem: Given the app purchase price. compute the profit earned on app purchases
 #
@@ -41,7 +41,7 @@ Algorithm:
 #			# Assume a Linear Relationship #
 ```
 
-```{python}
+```python
 def calculate_number_of_purchases(price):
     # $2 -> 1,000
     # 3$ -> 700

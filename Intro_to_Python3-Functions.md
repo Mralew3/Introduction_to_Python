@@ -2,7 +2,7 @@
 
 ### Test Problem #2
 
-```{python}
+```python
 ## Sort a list of N numbers from lowest to highest. ##
 
 7 4 42 55 13
@@ -28,7 +28,7 @@ Algorithm:
 
 ### Test Problem #1 (answer)
 
-```{python}
+```python
 # App Store
 # Problem: Given the app purchase price. compute the profit earned on app purchases
 #
@@ -41,7 +41,7 @@ Algorithm:
 #			# Assume a Linear Relationship #
 ```
 
-```{python}
+```python
 def calculate_number_of_purchases(price):
     # $2 -> 1,000
     # 3$ -> 700

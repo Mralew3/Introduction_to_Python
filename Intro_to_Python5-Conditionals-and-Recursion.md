@@ -29,7 +29,7 @@ Algorithm:
 
 ## CH.05 Conditionals and Recursion
 
-```{python}
+```python
 # Modulus operator
 
 # Regular division
@@ -44,7 +44,7 @@ print( 7 % 3 )
 
 ### Boolean Data Type
 
-```{python}
+```python
 # only has 2 possible values: True and False
 
 print( True ) ### True is a value not a string
@@ -55,7 +55,7 @@ print(type(False))
 
 ### Boolean Expressions
 
-```{python}
+```python
 # Assignment
 x = 5
 
@@ -91,7 +91,7 @@ print ( 0 == ( n % 2 ) ) # False
 
 ### Logical Operators
 
-```{python}
+```python
 print("")
 print("Logical operators")
 
@@ -118,7 +118,7 @@ print((True and False) or True)  # True
 
 ### print('Conditional Execution')
 
-```{python}
+```python
 print('')
 print('Conditional Execution')
 # Simple if statement
@@ -164,7 +164,7 @@ if (x > 0) and (x < 10):
 
 ### Recursion
 
-```{python}
+```python
 print("")
 print("Recursion")
 
@@ -189,7 +189,7 @@ countdown(5.5)  # This will also work, but will print the float value
 
 ### input and output
 
-```{python}
+```python
 print("")
 print("Input")
 
@@ -200,7 +200,7 @@ print("Next year will be", next_year)
 
 ### Fibonacci Sequence
 
-```{python}
+```python
 print("")
 # n   = 0 1 2 3 4 5 6 7 8 9 10
 # F(n) = 0 1 1 2 3 5 8 13 21 34 55

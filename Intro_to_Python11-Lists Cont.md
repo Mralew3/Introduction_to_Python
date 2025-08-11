@@ -23,7 +23,7 @@ ALGORITHM:
 
 4. if the number of items is odd, then.
 
-   A.subract 1 from the number of items
+   A.subtract 1 from the number of items
 
    b. divide that by 2 and say that is the index of the median value
 

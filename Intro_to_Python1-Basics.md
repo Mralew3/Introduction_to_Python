@@ -5,7 +5,7 @@
 A variable is a name or label for a value  
 ex.
 
-```{python}
+```python
 count = 55
 size = 42.0
 asldkjsk = 12
@@ -17,7 +17,7 @@ asldkjsk = 12
 
 - Operands: the variables and their corresponding values that the instructions are performed on
 
-```{python}
+```python
 print( 3 + 4 ) # output: 7
 ```
 
@@ -25,7 +25,7 @@ print( 3 + 4 ) # output: 7
 
 when using the division operator ( / ) all floating point numbers (float) are approximations.
 
-```{python}
+```python
 ( 10 // 3 ) = 3
 ( 10 / 3 ) = 3.33333
 
@@ -35,7 +35,7 @@ print( 3 + 4.0 ) = 7.0
 
 ## String Concatenation
 
-```{python}
+```python
 print( '17' + '3' )
 173
 print("17" * 3)
@@ -46,7 +46,7 @@ print("17" * 3)
 
 - Use comments to make descriptions within the code.
 
-```{python}
+```python
 # Poor example:
 # Calculate it
 y = 2

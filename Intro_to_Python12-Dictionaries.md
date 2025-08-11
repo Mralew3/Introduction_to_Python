@@ -47,7 +47,7 @@ ALGORITHM:
 
 ### mapping between keys and values (key-value pairs)
 
-```{python}
+```python
 # AKA map (or Table / Hash / Hashtables / Associative array)
 
 a_list = [1, 2, 3]
@@ -58,14 +58,14 @@ print(a_list[1])
 
 ### Create an empty dictionary
 
-```{python}
+```python
 birthdays = dict()
 print(birthdays)
 ```
 
 ### Add Key/Value pairs
 
-```{python}
+```python
 birthdays["0704"] = "Steve"
 birthdays["0529"] = "Tony"
 print(birthdays)
@@ -76,12 +76,12 @@ print(len(birthdays))
 
 ### Methods
 
-```{python}
+```python
 print(birthdays.keys()) # '0704', '0529'
 print(birthdays.values()) # 'Steve', 'Tony'
 ```
 
-```{python}
+```python
 # Duplicates?
 
 # Are keys unique? Yes
@@ -96,7 +96,7 @@ print(birthdays["0704"])
 
 ### Reverse lookup
 
-```{python}
+```python
 # look for a key given a value
 
 def reverse_lookup(a_dict, value):
@@ -122,14 +122,14 @@ key = None
 print(reverse_lookup(birthdays, "Tony")) # '0529'
 ```
 
-```{python}
+```python
 test_dict = {42: "The answer", 13: "Bad luck"}
 print(test_dict)
 ```
 
 ## Dictionaries and Lists
 
-```{python}
+```python
 print("")
 print("Dictionaries and Lists")
 
@@ -146,7 +146,7 @@ phone_book["Soulja"] = "999-8212"
 
 ### invert a dictionary
 
-```{python}
+```python
 def invert_dictionary(a_dict):
 inverted = dict()
 

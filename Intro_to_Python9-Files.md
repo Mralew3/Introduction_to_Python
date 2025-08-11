@@ -42,14 +42,14 @@ ALGORITHM:
 
 ### Open the file
 
-```{python}
+```python
 input_file = open("short-words.txt")
 print(input_file)
 ```
 
 ### Use a for loop to iterate over each line of text
 
-```{python}
+```python
 for line in input_file:
     word = line.strip()
     print(line)  # this will print the content of the file
@@ -57,7 +57,7 @@ for line in input_file:
 
 ### Close the file
 
-```{python}
+```python
 input_file.close()  # makes sure the content was saved to the file
 
 print("------")
@@ -66,7 +66,7 @@ print("NO e test")
 
 ### Define a function that determines if a word does not have an 'e'
 
-```{python}
+```python
 def has_no_e(word):
     result = False
     # Does the word not have 'e' in it?
@@ -82,7 +82,7 @@ print(has_no_e("bobsled"))
 
 ### same as above, but not hardcoded to 'e'
 
-```{python}
+```python
 def has_no_letter(word, letter):
     result = False
     # Does the word not have 'letter' in it?
@@ -94,7 +94,7 @@ def has_no_letter(word, letter):
 
 ### same as above, but check multiple letters
 
-```{python}
+```python
 def has_no_letters(word, letters):
     result = True
     # iterate through each letter in letters
@@ -108,13 +108,13 @@ def has_no_letters(word, letters):
 
 ### Open the file
 
-```{python}
+```python
 input_file = open("short-words.txt")
 ```
 
 ### Process each line (i.e., word)
 
-```{python}
+```python
 for line in input_file:
     word = line.strip()
 
@@ -127,7 +127,7 @@ for line in input_file:
 
 ### Close the file
 
-```{python}
+```python
 input_file.close()
 
 print("There are[", str(no_e_word_count), "] words without an e")
@@ -135,7 +135,7 @@ print("There are[", str(no_e_word_count), "] words without an e")
 
 ### for / while loop
 
-```{python}
+```python
 fruit = "banana"
 
 ### for loop
@@ -153,7 +153,7 @@ while i < len(fruit):
 
 ### recursion
 
-```{python}
+```python
 def recurse_through_string(word, index):
     # Base case: if index is >= length of the word
     if index < len(word):

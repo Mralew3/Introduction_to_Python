@@ -59,7 +59,7 @@ Algorithm:
 
 ## CH.04 Function Interface Design
 
-```{python}
+```python
 import turtle # import the turtle package to start drawing
 
 ## Create a turtle
@@ -79,7 +79,7 @@ bob.fd ( 100 )
 
 ### Repetition
 
-```{python}
+```python
 # for loop / definite loop / iteration
 for i in range( 4 ):
 	print( "Hello" , i )
@@ -99,7 +99,7 @@ for i in range(4):
 
 ### Encapsulation
 
-```{python}
+```python
 def draw_square( my_turtle ):
 	for i in range( 4 ):
 		my_turtle.fd( 100 )
@@ -113,7 +113,7 @@ def draw_square( my_turtle ):
 
 ### Abstraction / Generalization
 
-```{python}
+```python
 def draw_square_any_size( my_turtle, length ):
 	for i in range( 4 ):
 		my_turtle.fd( length )
@@ -126,7 +126,7 @@ def draw_square_any_size( my_turtle, length ):
 
 ### Generalize even further and draw a n-sided polygon
 
-```{python}
+```python
 def draw_polygon(my_turtle, n, side_length):
 	# Compute the angle. Each side takes 1/n of a full circle (360 degrees)
 	angle = 360.0 / n

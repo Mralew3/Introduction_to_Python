@@ -55,7 +55,7 @@ ALGORITHM:
 
 - Tuples usually store data of different data types
 
-```{python}
+```python
 a_tuple = ("a", "b", "c", "d", "e") # Preferred
 a_tuple = "a", "b", "c", "d", "e"
 a_tuple = ("a",)
@@ -74,7 +74,7 @@ print(a_tuple[:3])
 
 ### Tuple Assignment
 
-```{python}
+```python
 print("")
 print("Tuple Assignment")
 
@@ -84,7 +84,7 @@ b = 6
 
 #### Swap the values
 
-```{python}
+```python
 
 temp = a
 a = b
@@ -94,7 +94,7 @@ print(a, b)
 
 #### Swap with tuples
 
-```{python}
+```python
 
 (a, b) = (b, a)
 print(a, b)
@@ -102,7 +102,7 @@ print(a, b)
 
 ### Split a string
 
-```{python}
+```python
 
 email = "monty@python.org"
 (name, domain) = email.split("@")
@@ -117,7 +117,7 @@ print(birthdate)
 
 ### ("Tuple as a return value")
 
-```{python}
+```python
 
 quotient, remainder = divmod(7, 3)
 print(quotient)
@@ -126,7 +126,7 @@ print(remainder)
 
 ### Returns the min and max of a tuple of numbers
 
-```{python}
+```python
 
 def min_max(a_tuple):
 return (min(a_tuple), max(a_tuple))
@@ -139,7 +139,7 @@ print(max_num)
 
 ### ("Variable-length argument tuples")
 
-```{python}
+```python
 
 # \* is the gather operator
 
@@ -158,7 +158,7 @@ print(result)
 
 ### ("Lists and tuples")
 
-```{python}
+```python
 
 a_string = "abc"
 a_list = [1, 2, 3]
@@ -177,7 +177,7 @@ print(letter, "=>", number)
 
 ### ("Dictionaries and tuples")
 
-```{python}
+```python
 
 a_dict = {"a": 0, "b": 1, "c": 2}
 dict_items = a_dict.items()
@@ -193,7 +193,7 @@ print(key, "=>", value)
 
 ### tuples can be keys in a dictionary
 
-```{python}
+```python
 
 phone_directory = dict()
 phone_directory["Smith", "Bob"] = "555-1234"
@@ -202,7 +202,7 @@ phone_directory["Smith", "Jenny"] = "867-5309"
 
 #### Iterate through the phone directory
 
-```{python}
+```python
 
 for last, first in phone_directory:
 print(last, first, phone_directory[last, first])

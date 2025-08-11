@@ -2,7 +2,7 @@
 
 ## Algoirthm 1
 
-```{python}
+```python
 #Calculate the mean value (average) in a list of n numbers.
 
 #Problem:
@@ -31,7 +31,7 @@
 
 ## Data Types
 
-```{python}
+```python
 print ( 42 )
 print ( 55 - 13 )
 print ( type( 42 ) )
@@ -39,7 +39,7 @@ print ( type( 42 ) )
 
 #### convert int to float
 
-```{python}
+```python
 x = float( 42 )
 print ( x )
 print ( type( x ) )
@@ -47,7 +47,7 @@ print ( type( x ) )
 
 #### convert float to int
 
-```{python}
+```python
 print( int( 42.0 ) )
 print( int( 42.9 ) )
 print( int( -42.9 ) )
@@ -55,7 +55,7 @@ print( int( -42.9 ) )
 
 #### convert String to float
 
-```{python}
+```python
 print( float( '42' ) )
 ```
 
@@ -63,14 +63,14 @@ print( float( '42' ) )
 
 import math ###calls math functions from the math library via the import command
 
-```{python}
+```python
 import math
 radians = math.pi / 2
 height = math.sin( radians )
 print( height )
 ```
 
-```{python}
+```python
 # Calculate the circumference of a circle
 # c = 2 (pi) r
 
@@ -81,7 +81,7 @@ print( circumference ) # ~25
 
 ## Composition
 
-```{python}
+```python
 # Define the function
 def print_star_wars_greeting():
 	print( "May the force be with you" )
@@ -109,7 +109,7 @@ print_lyrics()
 
 ### Parameters and Arguments
 
-```{python}
+```python
 def greet( name ):        ## name is the parameter ##
     print( "hello" , name )
     print( "How are you doing?" )
@@ -148,7 +148,7 @@ print( "outside y=[', y, ']" )
 
 #### Calculate the area of a circle
 
-```{python}
+```python
 def calculate_area_circle( radius ):
 	# Area = pi * r * r
 	area = math.pi * radius * radius

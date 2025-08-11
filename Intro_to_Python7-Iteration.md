@@ -37,13 +37,13 @@ ALGORITHM:
 
 ## Ch. 07 Iteration (While loops)
 
-```{python}
+```python
 import random # Importing the random module to generate random numbers
 ```
 
 ### Multiple assignment
 
-```{python}
+```python
 a = 2
 a = 4
 a = 5
@@ -53,7 +53,7 @@ a = 3
 
 ### Updating variable
 
-```{python}
+```python
 x = 0
 x = x + 1 # Increment
 x += 1 # Increment
@@ -63,7 +63,7 @@ x -= 1 # Decrement
 
 ## Iteration
 
-```{python}
+```python
 # For loop - definite loop
 # While loop - indefinite loop
 
@@ -91,7 +91,7 @@ def countdown_alt(n):
 
 ### Break Statement
 
-```{python}
+```python
 def echo():
     # Intentional infinite loop
     while True: # This loop will run indefinitely until we break out of it
@@ -130,7 +130,7 @@ def echo_without_break():
 
 ### Guessing game
 
-```{python}
+```python
 def start_guessing(low, high):
     # Randomly guessing a number
     random.seed(42)  # Set seed for reproducibility

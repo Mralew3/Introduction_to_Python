@@ -46,7 +46,7 @@ Algorithm:
 
 ## CH.10 Lists
 
-```{python}
+```python
 
 # A list is sequence of values
 # - Values are referred to as elements or items
@@ -64,19 +64,19 @@ print(different)
 
 ### empty list are valid
 
-```{python}
+```python
 empty = []
 ```
 
 ### Access individual elements using bracket notation
 
-```{python}
+```python
 print( animals[0] )
 ```
 
 ### imutable and mutable
 
-```{python}
+```python
 # Strings are imutable
 # Lists are mutable
 animals[1] = 'velociraptor'
@@ -90,7 +90,7 @@ if( 'fish' in animals ):
 
 ### Traverse a list
 
-```{python}
+```python
 print('')
 print('Traversing a list')
 
@@ -123,7 +123,7 @@ print(d)
 
 ### slicing
 
-```{python}
+```python
 print(c[2:4])
 print(c[2])
 print(c[:4])
@@ -131,7 +131,7 @@ print(c[:4])
 
 ### slice to modify a list
 
-```{python}
+```python
 c[2:4] = [55, 42]
 print(c)
 C[2:4] = [101, 202, 303, 404, 505]
@@ -140,7 +140,7 @@ print(c)
 
 ## List methods
 
-```{python}
+```python
 print("")
 print("List methods")
 
@@ -150,14 +150,14 @@ print(list1)
 
 ### Append an item to the end of the list
 
-```{python}
+```python
 list1.append("d")
 print(list1)
 ```
 
 ### extend a list with another list
 
-```{python}
+```python
 list2 = ["e", "f", "g"]
 print(list2)
 list1.extend([list2])
@@ -167,7 +167,7 @@ print(list2)
 
 ### sort a list
 
-```{python}
+```python
 list3 = [3, 1, 4, 2]
 list3.sort()
 print(list3)
@@ -175,7 +175,7 @@ print(list3)
 
 ### reverse a list
 
-```{python}
+```python
 list3.reverse()
 print(list3)
 ```
@@ -186,7 +186,7 @@ print(list3)
 
 ### sum the numbers in a list
 
-```{python}
+```python
 def calculate_sum(a_list):
     # Define the variable to hold the sum
     sum_of_list = 0
@@ -216,7 +216,7 @@ print(calculate_sum(list_of_numbers))  # Output: 110
 
 ### Capitalize all the words in the list
 
-```{python}
+```python
 def capitalize_all(a_list):
     # create a new list
     new_list = []
@@ -239,7 +239,7 @@ capitalized_words = capitalize_all(words)
 
 ### Filter example
 
-```{python}
+```python
 # Find the words that only contain uppercase letters
 def find_uppercase(a_list):
     # Create a new list
@@ -264,7 +264,7 @@ print(find_uppercase_words)  # Output: ['HELLO', 'PYTHON']
 
 ### Pop method removes the last element from the list and returns it
 
-```{python}
+```python
 a_list = ["a", "b", "c", "d", "e"]
 value = a_list.pop(1)
 print(value)  # Output: b
@@ -276,7 +276,7 @@ print(a_list)  # Output: ['a', 'c', 'd']
 
 ### Delete operator removes the element at the specified index
 
-```{python}
+```python
 a_list = ["a", "b", "c", "d", "e"]
 del a_list[1]
 print(a_list)  # Output: ['a', 'c', 'd', 'e']
@@ -284,7 +284,7 @@ print(a_list)  # Output: ['a', 'c', 'd', 'e']
 
 ### delete operator can be used on slices
 
-```{python}
+```python
 a_list = ["a", "b", "c", "d", "e"]
 del a_list[1:3]
 print(a_list)  # Output: ['a', 'd', 'e']
@@ -292,7 +292,7 @@ print(a_list)  # Output: ['a', 'd', 'e']
 
 ### Remove method removes the specified element from the list
 
-```{python}
+```python
 a_list = ["a", "b", "c", "d", "e", "b"]
 a_list.remove("c")
 print(a_list)  # Output: ['a', 'b', 'd', 'e']
@@ -305,7 +305,7 @@ print(a_list)  # Output: ['a', 'd', 'e']
 
 ### list and strings
 
-```{python}
+```python
 print("")
 print("list and strings")
 
@@ -327,7 +327,7 @@ print(new_string)  # Output: this-=-is-=-a-=-test
 
 ### Objects and Values
 
-```{python}
+```python
 print("")
 print("Objects and Values")
 
@@ -346,7 +346,7 @@ print(a_list is b_list)  # Sameness
 
 ### Aliasing
 
-```{python}
+```python
 print("")
 print("Aliasing") # reference variable vs primitive variable
 

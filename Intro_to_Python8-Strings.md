@@ -34,7 +34,7 @@ Algorithm:
 
 ### String - a sequence of characters
 
-```{python}
+```python
 x = 42
 y = "42"
 
@@ -51,7 +51,7 @@ length = len(fruit)
 
 ### for loop
 
-```{python}
+```python
 print("For Loop")
 for i in range(len(fruit)):
     print(fruit[i])
@@ -78,7 +78,7 @@ suffix = "ack"
 
 ### Concatenation
 
-```{python}
+```python
 for letter in prefixes:
     print(letter + suffix)
 
@@ -98,7 +98,7 @@ print("[ " + funny[-5:-1] + "]")  # prints 'ytho'
 
 ### Strings are immutable
 
-```{python}
+```python
 greetings = "Hello World"
 # greetings[0] = "J"  # This will raise an error
 
@@ -108,7 +108,7 @@ print(new_greeting)  # prints 'Jello World'
 
 ### search for a given character in a string
 
-```{python}
+```python
 def find(word, letter):
     # Default to the letter is not in the string
     letter_index = -1
@@ -127,7 +127,7 @@ def find(word, letter):
 
 ### Test the find function
 
-```{python}
+```python
 print(find("Hello There", "T"))  # Should print the index of 'T'
 print(find("Hello There", "X"))  # Should print -1 since 'X' is not in the string
 print(find("Hello There", "e"))  # Should print the index of the first 'e'
@@ -135,7 +135,7 @@ print(find("Hello There", "e"))  # Should print the index of the first 'e'
 
 ### String methods
 
-```{python}
+```python
 print("String methods")
 
 word = "banana"
@@ -143,21 +143,21 @@ word = "banana"
 
 ### invoke the method
 
-```{python}
+```python
 new_word = word.upper()
 print(new_word)  # prints 'BANANA'
 ```
 
 ### in operator
 
-```{python}
+```python
 print("an" in "banana")  # prints True
 print("an" in "apple")  # prints False
 ```
 
 ### string comparison
 
-```{python}
+```python
 print ('string comparison')
 
 word = apple

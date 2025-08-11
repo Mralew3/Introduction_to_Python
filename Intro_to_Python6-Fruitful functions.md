@@ -35,7 +35,7 @@ ALGORITHM:
 Function that don't return a value are void (None)  
 ex.
 
-```{python}
+```python
 def test_me():
 	print( 'hello' )
 result = test_me()
@@ -54,7 +54,7 @@ print(result)
 
 ### ( Don't do this )
 
-```{python}
+```python
 def do_something_multiple(x):
     if x < 0:
         # Do something complicated
@@ -71,7 +71,7 @@ print(do_something_multiple(5))
 
 ### ( Do this instead )
 
-```{python}
+```python
 def do_something_single(x):
     result = 0
     if (x < 0):
@@ -92,7 +92,7 @@ print(do_something_single(5))
 
 ### Boolean Functions
 
-```{python}
+```python
 def is_between(x, y, z):
     # Check if y is between x and z (inclusive).
 
@@ -105,7 +105,7 @@ print(is_between(1, 3, 2))  # False
 
 ### Sum of integers from 1 to n (iterative)
 
-```{python}
+```python
 def sum_integers_iterative(n):
     # Calculate the sum of integers from 1 to n (iterative)
     # define a variable total, to hold the total value
